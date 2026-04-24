@@ -1,8 +1,19 @@
+.wrapper {
+    height: 11rem;
+    width: 31.25rem;
+    border-radius: 1.25rem;
+    /* background-color: green; */
+    margin: 0 auto;
+    position: relative;
+
+
+}
+
 .card_container {
 
     height: 11rem;
     width: 31.25rem;
-    background-color: lightsalmon;
+    /* background-color: lightsalmon; */
     border-radius: 1.25rem;
     display: flex;
     flex-direction: row;
@@ -16,14 +27,14 @@
 
 .card_body
 {
-    background-color: black;
+    background-color: white;
     width: 100%;
     position: relative;
     
 }
 
 .text_container {
-    background-color: blueviolet;
+    background-color: white;
     position: absolute;
     top: 0;
     right: 0;
@@ -31,6 +42,7 @@
     left: 1rem;
     font-family: "Garamond", sans-serif;
     font-size: 1.1rem;
+    padding-right: 1rem;
     
     
     
@@ -38,6 +50,7 @@
 
 .text_container p{
     color: #070776;
+    text-align: justify;
 }
 
 .text_container h3{
@@ -47,7 +60,7 @@
 .bandaverde_container {
     width: 3.125rem;
     padding-right: 1.5rem;
-    background-color: lightblue;
+    /* background-color: lightblue; */
     display: flex;
     justify-content: start;
     flex-grow: 1;
@@ -55,21 +68,30 @@
 }
 
 .bandaverde {
-    background-color: greenyellow;
+    background-color: #5dff00;
     width: 3.125rem;
     height: 100%;
 }
 
 .notepad_pic_container {
 
-    background-color: blue;
+    background-color: white;
+    border: 2px solid #0e0e32;
     width: 70px;
     height: 70px;
     border-radius: 50%;
     position: absolute;
-    right: 1rem;
-    top: 0;
+    right: .800rem;
+    top: -1.6rem;
     z-index: 10;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+}
+
+.notepad_pic_container img {
+    width: 50%;
+    height: auto;
 }
