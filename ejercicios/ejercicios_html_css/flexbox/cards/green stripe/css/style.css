@@ -1,0 +1,75 @@
+.card_container {
+
+    height: 11rem;
+    width: 31.25rem;
+    background-color: lightsalmon;
+    border-radius: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    overflow: hidden;
+    margin: 3.125rem auto;
+    border: 2px solid #070776;
+    position: relative;
+}
+
+.card_body
+{
+    background-color: black;
+    width: 100%;
+    position: relative;
+    
+}
+
+.text_container {
+    background-color: blueviolet;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 1rem;
+    left: 1rem;
+    font-family: "Garamond", sans-serif;
+    font-size: 1.1rem;
+    
+    
+    
+}
+
+.text_container p{
+    color: #070776;
+}
+
+.text_container h3{
+    font-weight: 700;
+}
+
+.bandaverde_container {
+    width: 3.125rem;
+    padding-right: 1.5rem;
+    background-color: lightblue;
+    display: flex;
+    justify-content: start;
+    flex-grow: 1;
+
+}
+
+.bandaverde {
+    background-color: greenyellow;
+    width: 3.125rem;
+    height: 100%;
+}
+
+.notepad_pic_container {
+
+    background-color: blue;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    right: 1rem;
+    top: 0;
+    z-index: 10;
+    margin: 0;
+    
+}
