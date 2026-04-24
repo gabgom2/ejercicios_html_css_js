@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: lightcyan;
+    padding: 1rem 2rem;
+}
+
+.flexbox_card {
+    background-color: lightyellow;
+    padding: 0.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border-radius: 10px;
+
+    border: dashed 2px black;
+    
+
+}
+
+.flexbox_readme_link {
+    color: rgb(0, 0, 71);
+}
+.flexbox_card h3 {
+    padding-top: 0.3rem;
+    padding-bottom: 2rem;
+}
+
+.flexbox_card nav {
+    padding-bottom: 1rem;
+}
+.flexbox_card nav li {
+    list-style: none;
+}
+
+.flexbox_card nav li a {
+    color: maroon;
+    text-decoration: none;
+}
