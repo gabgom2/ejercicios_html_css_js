@@ -4,4 +4,4 @@
 - Barra extendida con tres elementos: Una barra h1 muy simple con tres elementos debajo para ver las funciones básicas de centrado con Flexbox
 - Tarjeta básica creada en flexbox (Overflow hidden)
 -Tarjeta básica con banda verde y una imagen posicionada con position: absolute para que quede encima y fuera de la caja al mismo tiempo que la tarjeta utiliza overflow:hidden (se utilizaron dos contenedores superpuestos para resolverlo / wrapper)
-
+-Tarjeta horizontal verde con imagen identificatoria y botones. Se creó una caja de soporte para contener el área donde irían los botones y se les dió padding a los anchor para que dieran ese tipo de apariencia
