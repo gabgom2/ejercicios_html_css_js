@@ -36,10 +36,16 @@ body {
     padding-bottom: 1rem;
 }
 .flexbox_card nav li {
-    list-style: none;
+    list-style: disc;
+    list-style-position: outside;
+    padding-left: 1.5rem;
+}
 }
 
 .flexbox_card nav li a {
-    color: maroon;
     text-decoration: none;
+    color: maroon;
 }
+
+
+
